@@ -1,0 +1,26 @@
+ion-col {
+  &.col-border {
+    border-color: black; 
+    border-width: .01em; 
+    border-style:solid; margin-bottom : -1px;
+    background-color: lightgrey
+  }
+  &.kanan {
+    text-align: right;
+    border-width: .01em;
+  }
+  &.kiri {
+    text-align: left;
+  }
+  &.arrow-tgh {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  &.order-no {
+    text-align: right;
+    border-width: .01em;
+  }
+}
